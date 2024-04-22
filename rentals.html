@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ajiboye Toyin Theophilus">
+    <meta name="description"
+        content="Discover the ultimate urban mobility solution with Scoot.Scoot offers convenient and eco-friendly transportation options for navigating city streets. Whether you're commuting to work or exploring a new neighborhood, Scoot makes getting around fast, fun, and effortless.">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Scoot - Rentals">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://tonbot.github.io/wdd230/Scoots/images/honda-metropolitan-49cc-small.webp">
+    <meta property="og:url" content="https://tonbot.github.io/wdd230/Scoots/">
+    <title>Scoot - Rentals</title>
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="nav-toggle" id="nav-toggle">
+            <i class="fa fa-bars" id="openNav" onclick="openNav()"></i>
+            <i class="fa fa-close" id="closeNav" onclick="closeNav()"></i>
+        </div>
+
+        <div class="contact-info">
+            <p>Contact us: +123-456-7890 | info@scootscozumel.com</p>
+        </div>
+
+        <div class="nav-container">
+            <h1>~Scoots~</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="rentals.html">Rentals</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+    <!-- rental Section -->
+    <section class="rentals">
+        <h2>Discover Adventure with Our Premier Rental Service</h2>
+        <div class="rentals-larger">
+            <p>At Scoots, we're dedicated to providing you with the ultimate rental experience on the beautiful island of Cozumel. From sleek motor scooters to rugged ATVs and versatile Jeeps, our diverse fleet of vehicles ensures that you can explore the island with ease and style. With convenient pickup locations and flexible rental options, we make it simple for you to embark on your island adventure. Whether you're a local looking for a weekend getaway or a tourist eager to explore Cozumel's hidden gems, we have the perfect ride for you. Get ready to immerse yourself in the natural beauty and vibrant culture of Cozumel with [Your Company Name]. Your adventure starts here!"</p>
+            <div class="rentals-container">   
+             </div>
+        </div>
+    </section>
+
+    <!-- sontact -->
+    <section class="contact">
+        <h2>Connect With Us</h2>
+        <div class="social-media">
+            <ul>
+                <li><a href="#" aria-label="Facbook link"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" aria-label="Twitter link"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" aria-label="Instagram link"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="contact-larger">
+            <img src="images/contact-us.webp" loading="lazy" alt="contact us image" width="600" height="400">
+            <div class="contact-form">
+                 <p>required field are marked with asterik(*)</p>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name<em>*</em></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email<em>*</em></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message<em>*</em></label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+ </main>
+
+      <!-- Footer Section -->
+      <footer>
+        <div class="footer">
+            <div class="social-media">
+                <h2><a href="home.html" rel="">~Scoots~</a></h2>
+                <p>Your ultimate companion for hassle-free urban mobility. Zip through the city in style with our scooters. Unlock convenience and excitement with every ride. Join the Scoots revolution today!"</p>
+                <ul>
+                    <li><a href="#" aria-label="Facbook link "><i class="fa fa-facebook icon"></i></a></li>
+                    <li><a href="#" aria-label="Twitter link"><i class="fa fa-twitter icon"></i></a></li>
+                    <li><a href="#" aria-label="Instagram link"><i class="fa fa-instagram icon"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h2>Quick Link</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rentals.html">Rentals</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact-info">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Contact us: +123-456-7890</li>
+                    <li>info@scootscozumel.com</li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- <div class="copyright">
+            <p>&copy; <span id="year"></span> | Toyin Theophilus Ajiboye</p>
+        </div> -->
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/rentals.js"></script>
+</body>
+
+</html>

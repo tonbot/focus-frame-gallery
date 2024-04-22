@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Honda Metropolitan",
+      "type": "Motor Scooter",
+      "capacity": "1 person",
+      "price_half_day": "$20",
+      "price_full_day": "$30",
+      "image": "images/honda-metropolitan-49cc-small.webp"
+    },
+    {
+      "name": "Honda Dio",
+      "type": "Motor Scooter",
+      "capacity": "2 person",
+      "price_half_day": "$30",
+      "price_full_day": "$40",
+      "image": "images/honda-dio-110cc-small.webp"
+    },
+    {
+      "name": "Honda PCX150",
+      "type": "Motor Scooter",
+      "capacity": "2 person",
+      "price_half_day": "$40",
+      "price_full_day": "$50",
+      "image": "images/honda-pcx150-149cc-small.webp"
+    },
+    {
+      "name": "Honda Pioneer 1000",
+      "type": "Side-by-Side ATV",
+      "capacity": "4 person",
+      "price_half_day": "$50",
+      "price_full_day": "$70",
+      "image": "images/honda-pioneer-1000-small.webp"
+    },
+    {
+      "name": "Jeep Wrangler - 4 door with A/C",
+      "type": "Jeep",
+      "capacity": "5 person",
+      "price_half_day": "$70",
+      "price_full_day": "$100",
+      "image": "images/jeep-wrangler-4-door-small.webp"
+    },
+    {
+      "name": "Jeep Wrangler - 2 door",
+      "type": "Jeep",
+      "capacity": "4 person",
+      "price_half_day": "$60",
+      "price_full_day": "$85",
+      "image": "images/jeep-wrangler-2-door-small.webp"
+    }
+  ]
+  
